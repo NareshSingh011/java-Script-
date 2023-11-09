@@ -26,5 +26,6 @@ function second(Array){
     return Array[1]
 }
 console.log(second(myarray))
+//naresh 
 
 
