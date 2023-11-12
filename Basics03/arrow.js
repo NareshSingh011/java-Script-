@@ -20,3 +20,5 @@ let obj =  {
 }
 
 obj.welcome()
+
+//naresh singh 
