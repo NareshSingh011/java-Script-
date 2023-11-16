@@ -44,3 +44,47 @@ if (user&&debitcard){
 if (loggedInfromGoogle || loggedInfromEmail){
     console.log("okay done")
 }
+
+// Switch 
+
+// let month = 3
+
+// switch (month) {
+//     case 1:
+//         console.log("January")
+//         break;
+//     case 2:
+//         console.log("feb")
+//         break;
+//     case 3:
+//         console.log("march")
+//         break;
+//     case 4:
+//         console.log("April")
+//         break;
+
+//     default:
+//         console.log("y mahine nhi h isme ")
+//         break;
+// }
+
+let month = 5
+
+switch (month) {
+    case 1:
+        console.log("January")
+        break;
+    case 2:
+        console.log("feb")
+        break;
+    case 3:
+        console.log("march")
+        break;
+    case 4:
+        console.log("April")
+        break;
+
+    default:
+        console.log("y mahine nhi h isme ")
+        break;
+}
