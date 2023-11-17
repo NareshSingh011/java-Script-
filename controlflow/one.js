@@ -88,3 +88,10 @@ switch (month) {
         console.log("y mahine nhi h isme ")
         break;
 }
+
+let userEmail = "naresh@gmail.com"
+if(userEmail){
+    console.log("got user Email")
+    }else{
+    console.log("didn't get Email")
+}
