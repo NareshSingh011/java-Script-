@@ -46,4 +46,4 @@ console.log(newnum);
     return acc+currval
  },0)
  console.log(myTotal)
-//Naresh singh 
+
