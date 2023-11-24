@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM with Naresh </title>
+</head>
+<body style="background-color: rgb(103, 85, 85);color: aliceblue; ">
+    <div class="parent" >
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>   
+</body>
+<script>
+    const parent = document.querySelector(".parent")
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+    // console.log(parent.innerHTML);
+
+    //     for (let i = 0; i < parent.children.length ;i++) {
+    //     const element = parent.children[i] ;
+    //     console.log(element);
+    // }
+    // parent.children[1].style.color = "Black";
+    // console.log(parent.firstElementChild)
+    
+
+    const day = document.querySelector(".day")
+    console.log(day.nextElementSibling)
+</script>
+</html>
