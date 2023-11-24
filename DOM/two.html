@@ -11,14 +11,18 @@
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
         <div class="day">Thursday</div>
-    </div>   
+    </div>  
+    <ul class="language">
+        <li>English</li>
+    </ul> 
 </body>
 <script>
-    const parent = document.querySelector(".parent")
+    // const parent = document.querySelector(".parent")
     // console.log(parent);
     // console.log(parent.children);
     // console.log(parent.children[1].innerHTML);
     // console.log(parent.innerHTML);
+
 
     //     for (let i = 0; i < parent.children.length ;i++) {
     //     const element = parent.children[i] ;
@@ -28,7 +32,31 @@
     // console.log(parent.firstElementChild)
     
 
-    const day = document.querySelector(".day")
-    console.log(day.nextElementSibling)
+    // const day = document.querySelector(".day")
+    // console.log(day.nextElementSibling)
+
+    // create a div in js 
+
+    const div = document.createElement("h1")
+    console.log(div);
+    div.className = "main"
+    // div.id = Math.random()
+    div.id = Math.round(Math.random() * 10 + 1) // It gives the nearest integer of the value
+    div.setAttribute("tittle","generated title")
+
+    // div.innerHTML = "Chai aur code "
+
+    const addtext = document.createTextNode("chai aur code ")
+    div.appendChild(addtext)
+    // console.log(addtext);
+    // document.body.appendChild(div) // iska use hum screen prr lane k liye krte h 
+
+    // for Add function 
+
+    function addLanguage(langname) {
+        const li = document.createElement("#li")
+        li.innerHTML = `${langname}
+    }
+
 </script>
 </html>
