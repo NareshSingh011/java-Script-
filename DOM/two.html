@@ -17,30 +17,30 @@
     </ul> 
 </body>
 <script>
-    // const parent = document.querySelector(".parent")
-    // console.log(parent);
-    // console.log(parent.children);
-    // console.log(parent.children[1].innerHTML);
-    // console.log(parent.innerHTML);
+    const parent = document.querySelector(".parent")
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[1].innerHTML);
+    console.log(parent.innerHTML);
 
 
-    //     for (let i = 0; i < parent.children.length ;i++) {
-    //     const element = parent.children[i] ;
-    //     console.log(element);
-    // }
-    // parent.children[1].style.color = "Black";
-    // console.log(parent.firstElementChild)
+        for (let i = 0; i < parent.children.length ;i++) {
+        const element = parent.children[i] ;
+        console.log(element);
+    }
+    parent.children[1].style.color = "Black";
+    console.log(parent.firstElementChild)
     
 
-    // const day = document.querySelector(".day")
-    // console.log(day.nextElementSibling)
+    const day = document.querySelector(".day")
+    console.log(day.nextElementSibling)
 
     // create a div in js 
 
     const div = document.createElement("h1")
     console.log(div);
     div.className = "main"
-    // div.id = Math.random()
+    div.id = Math.random()
     div.id = Math.round(Math.random() * 10 + 1) // It gives the nearest integer of the value
     div.setAttribute("tittle","generated title")
 
@@ -48,8 +48,8 @@
 
     const addtext = document.createTextNode("chai aur code ")
     div.appendChild(addtext)
-    // console.log(addtext);
-    // document.body.appendChild(div) // iska use hum screen prr lane k liye krte h 
+    console.log(addtext);
+    document.body.appendChild(div) // iska use hum screen prr lane k liye krte h 
 
     // for Add function 
 
