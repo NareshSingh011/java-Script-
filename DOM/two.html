@@ -51,12 +51,39 @@
     console.log(addtext);
     document.body.appendChild(div) // iska use hum screen prr lane k liye krte h 
 
-    // for Add function 
+    // // for Add function 
 
-    function addLanguage(langname) {
-        const li = document.createElement("#li")
-        li.innerHTML = `${langname}
+    function addlanguage(lang) {
+       const li = document.createElement("li");
+       li.innerHTML = `${lang}`
+       document.querySelector(".language").appendChild(li)
+
     }
+    addlanguage("python")
+    addlanguage("Hindi")
+
+    function addoptilanguage(lang) {
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(lang)) 
+        document.querySelector(".language").appendChild(li)
+    }
+    addoptilanguage("tamil")
+
+    // Edit and replace 
+    
+    const secondName = document.querySelector("li:nth-child(2)")
+    secondName.innerHTML= "mojo"
+    const newli = document.createElement("li")
+    newli.textcontent = "mojo"
+    secondName.replaceWith(newli)
+
+    secondName.outerHTML = `<hindi>`   
+
+    // remove 
+
+    const secondName = document.querySelector("li:nth-child(2)")
+    secondName.remove()
+
 
 </script>
 </html>
