@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+ 
+#main{
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.nav{
+    width: 100vw;
+    background-color: rgba(153, 179, 213, 0.645);
+    display: flex;
+    gap: 1vw;
+    
+}   
+
+a{
+    position: relative;
+    padding: 2px 4vw;
+    left: 40vw;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(121, 153, 155, 0.345);
+    border: 2px;
+    border-color:  rgb(111, 111, 119);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35.5vw;
+    padding-top: 15vh;
+}
+
+.boxes{
+    height: 35vh;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+
+#red{
+    padding: 6vh 3vw;
+    background-color: red;
+    border: solid;
+    border-color: black;
+}
+#yellow{
+    padding: 6vh 3vw;
+    background-color: rgb(255, 242, 0);
+    border: solid;
+    border-color: black;
+}
+
+#green{
+    padding: 6vh 3vw;
+    background-color: rgb(102, 255, 0);
+    border: solid;
+    border-color: black;
+}
+#blue{
+    padding: 6vh 3vw;
+    background-color: rgb(0, 106, 255);
+    border: solid;
+    border-color: black;
+}
+#white{
+    padding: 6vh 3vw;
+    background-color: white;
+    border: solid;
+    border-color: black;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vh 37vw;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+h2 span{
+    padding-left:10vw ;
+}
+
+#span2{
+    padding-left:6vw ;
+}
+
+#span3{
+    padding-left:3vw ;
+}
