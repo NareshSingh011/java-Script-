@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#clock{
+    display: flex;
+    flex-direction: column;
+    height: 7vh;
+    width: 12vw ;
+    background-color: rgb(206, 206, 51);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40vh;
+    margin-left: 44vw;
+    border-radius: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+
+
