@@ -101,3 +101,5 @@ function newGame() {
     playGame = true
    })
 }
+
+//naresh Singh 
