@@ -99,7 +99,4 @@ function newGame() {
     result.removeChild(p)
 
     playGame = true
-   })
-}
-
-//naresh Singh 
+   }
