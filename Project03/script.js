@@ -5,3 +5,5 @@ setInterval(function() { //setInterval use for call a function repeatedly at a s
     let date = new Date();
     clock.innerHTML = date.toLocaleTimeString();
 },1000)
+!
+//03
