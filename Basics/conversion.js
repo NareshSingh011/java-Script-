@@ -9,3 +9,6 @@ console.log(typeof valueInNumber)
 let logedIN = 1
 let boleanloggedIn = Boolean(logedIN)
 console.log(boleanloggedIn)
+
+
+#Naresh Singh 
