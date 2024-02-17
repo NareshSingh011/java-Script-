@@ -7,3 +7,5 @@ console.log (`My name is ${name} and my repo is ${repoCount}`)
 const gameName = new String("Naresh Singh")
 console.log(gameName[0])
 console.log(gameName)
+
+#naresh Singh 
