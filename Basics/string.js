@@ -8,4 +8,4 @@ const gameName = new String("Naresh Singh")
 console.log(gameName[0])
 console.log(gameName)
 
-#naresh Singh 
+
