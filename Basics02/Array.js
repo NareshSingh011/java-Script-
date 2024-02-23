@@ -33,4 +33,6 @@ let another_array = [1,2,3,4,5,[2,2,3,4,5,[2,5,6,7,3],2,3,4]]
 let solve_Array = another_array.flat(Infinity)
 console.log(solve_Array);
 
+#naresh Singh
+
 
