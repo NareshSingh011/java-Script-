@@ -10,4 +10,6 @@ let createmyDate = new Date (2023,10,05)
 console.log(createmyDate.toDateString())
 console.log(createmyDate.toLocaleDateString())
 
+// naresh Singh 
+
 
