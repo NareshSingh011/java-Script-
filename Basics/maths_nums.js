@@ -27,3 +27,5 @@ console.log(Math.floor(Math.random() * (max-min + 1))+min)
 // const surname = ["Singh ","Singh","Mewada","Rajput"]
 // const join = name.concat(surname)
 // console.log(join)
+
+// naresh Singh
