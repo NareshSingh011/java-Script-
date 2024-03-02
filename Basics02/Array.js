@@ -23,6 +23,12 @@
 // let allheros = bolly_heros.concat(south_heros)
 // console.log(allheros);
 
+// const myArr1 = ["naresh ","Aditya","Sourabh","Deepak"]
+// const myArr2 = ["Singh","Yadav","Vasihtha","Singh"]
+
+// const join = myArr1.concat(myArr2)
+// console.log(join);
+
 // // Spread
 
 // let allnewheros = [...bolly_heros,...south_heros]
@@ -34,9 +40,10 @@
 // console.log(solve_Array);
 
  
+// Slice
 
-const myArr1 = ["naresh ","Aditya","Sourabh","Deepak"]
-const myArr2 = ["Singh","Yadav","Vasihtha","Singh"]
+const arr1 = [1,23,4,5,5,6,6,6,7,7,43]
+const slice = arr1.splice(4)
+console.log(slice);
+console.log(arr1)
 
-const join = myArr1.concat(myArr2)
-console.log(join);
