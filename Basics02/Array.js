@@ -47,3 +47,4 @@ const slice = arr1.splice(4)
 console.log(slice);
 console.log(arr1)
 
+#naresh singh 
