@@ -43,4 +43,3 @@ console.log(newobj["Inst"]);
 // const {corseinstructor} = course
 // console.log(corseinstructor);
 
-// Naresh Singh
