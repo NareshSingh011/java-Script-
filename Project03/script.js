@@ -7,3 +7,6 @@ setInterval(function() { //setInterval use for call a function repeatedly at a s
 },1000)
 !
 //03
+
+
+// Naresh Singh
