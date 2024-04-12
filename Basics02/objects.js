@@ -40,6 +40,7 @@ console.log(newobj["Inst"]);
 //     corseinstructor : "vaira" ,
 // }
 
+// Naresh Singh
 // const {corseinstructor} = course
 // console.log(corseinstructor);
 
