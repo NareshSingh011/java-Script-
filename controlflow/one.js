@@ -1,4 +1,4 @@
-// True Statement 
+ko// True Statement 
 const userloggedIn = true 
 
 if (2==2){
@@ -95,5 +95,5 @@ if(userEmail){
     }else{
     console.log("didn't get Email")
 }
-// naresh Singh 
+
 
