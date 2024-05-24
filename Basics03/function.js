@@ -75,4 +75,6 @@ function addTwoNumbers(number1,number2) {
 const result = addTwoNumbers(10,10)
 console.log("Result:", (result));
 
+// naresh Singh
+
 
